@@ -30,6 +30,7 @@ For example, if you want to use the Aspire Dashboard in the development shell fo
       in
       {
         devShell = pkgs.mkShell {
+          OTEL_EXPORTER_OTLP_ENDPOINT = "http://localhost:18889";
           buildInputs = [ aspire-dashboard-package ];
         };
       }
