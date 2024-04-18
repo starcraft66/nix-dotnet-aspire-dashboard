@@ -6,7 +6,7 @@ This project packages the Aspire Dashboard for .NET into a Nix package, making i
 
 ### Flake Setup
 
-The flake in this repo exposes the aspire-dashboard package, as well as a nixpgkgs overlay that includes the Aspire Dashboard as a package.
+The flake in this repo exposes the aspire-dashboard package, as well as a nixpkgs overlay that includes the Aspire Dashboard as a package.
 
 For example, if you want to use the Aspire Dashboard in the development shell for another project that produces OpenTelemetry data, you project's flake would look something like this:
 
@@ -36,6 +36,8 @@ For example, if you want to use the Aspire Dashboard in the development shell fo
     );
 }
 ```
+
+You can then call `Aspire.Dashboard` from the command-line to run the dashboard.
 
 #### Environment Variables:
 
