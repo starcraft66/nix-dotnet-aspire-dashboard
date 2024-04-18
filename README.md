@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project packages the Aspire Dashboard for .NET into a Nix package, making it easily deployable and manageable via Nix Flakes. The Aspire Dashboard is a visualization tool that integrates with .NET applications to display telemetry data, leveraging OpenTelemetry for capturing and presenting traces, logs, and metrics.
+This project packages the Aspire Dashboard for .NET into a Nix package, making it easily deployable and manageable via Nix Flakes. The Aspire Dashboard is a visualization tool that integrates with any OpenTelemetry OTLP-emitting application to display telemetry data, leveraging OpenTelemetry for capturing and presenting traces, logs, and metrics.
 
 ### Flake Setup
 
