@@ -41,7 +41,7 @@ You can then call `Aspire.Dashboard` from the command-line to run the dashboard.
 
 #### Environment Variables:
 
-- `DOTNET_DASHBOARD_UNSECURED_ALLOW_ANONYMOUS`: Allows unsecured and anonymous access, set to `false` if hosting this on a serve. It is set by default because this dashboard is mostly intended to be run locally.
+- `DOTNET_DASHBOARD_UNSECURED_ALLOW_ANONYMOUS`: Allows unsecured and anonymous access, set to `false` if hosting this on a server. It is set by default because this dashboard is mostly intended to be run locally.
 
 ## Usage
 
