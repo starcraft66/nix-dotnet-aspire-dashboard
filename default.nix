@@ -1,7 +1,7 @@
 { fetchFromGitHub, buildDotnetModule, dotnet-sdk_8, dotnet-aspnetcore_8 }:
 
 let
-  version = "8.0.0-preview.5.24201.12";
+  version = "8.0.0-preview.6.24214.1";
 in buildDotnetModule {
   pname = "Aspire.Dashboard";
   inherit version;
@@ -10,7 +10,7 @@ in buildDotnetModule {
     owner = "dotnet";
     repo = "aspire";
     rev = "v${version}";
-    hash = "sha256-D3zRmZbaT5ASYGtM2ziHqeSnYi5ykibYgqo96G4I1fI=";
+    hash = "sha256-dleQrdavpnKtaW1HTG+aQUDvH4yfUiLYINECOzEExN0=";
   };
 
   projectFile = "src/Aspire.Dashboard/Aspire.Dashboard.csproj";
